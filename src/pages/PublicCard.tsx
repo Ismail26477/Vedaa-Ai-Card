@@ -8,6 +8,7 @@ import { Calendar } from "@/components/ui/calendar";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Checkbox } from "@/components/ui/checkbox";
 import { toast } from "sonner";
+import { FaWhatsapp } from "react-icons/fa";
 import {
   MessageSquare,
   Phone,
@@ -139,11 +140,16 @@ function ContactInfoSection({ card }: { card: CardData }) {
               <MessageSquare className="h-5 w-5" />
             </button>
             <button
-              onClick={() => window.open(`https://wa.me/${card.phone.replace(/\s/g, "")}`, "_blank")}
-              className="text-[hsl(220,50%,40%)] hover:text-[hsl(220,70%,50%)] transition-colors"
-            >
-              <Phone className="h-5 w-5" />
-            </button>
+  onClick={() =>
+    window.open(
+      `https://wa.me/${+91 8087115180}`,
+      "_blank"
+    )
+  }
+  className="text-green-500 hover:text-green-600 transition-colors"
+>
+  <FaWhatsapp className="h-5 w-5" />
+</button>
             <button
               onClick={() => window.open(`tel:${card.phone}`, "_blank")}
               className="text-[hsl(220,50%,40%)] hover:text-[hsl(220,70%,50%)] transition-colors"
