@@ -74,7 +74,7 @@ function CardHeader() {
   return (
     <div className="bg-[hsl(220,50%,18%)] text-center py-3 px-4 sticky top-0 z-10">
       <button className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white text-xs font-semibold px-4 py-1.5 rounded-full transition-colors">
-        Open in App <ExternalLink className="h-3 w-3" />
+        Vedaa AI <ExternalLink className="h-3 w-3" />
       </button>
     </div>
   );
