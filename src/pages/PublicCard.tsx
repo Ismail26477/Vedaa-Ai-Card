@@ -39,7 +39,7 @@ const mockCards: Record<string, CardData> = {
   "1": {
     id: "1",
     name: "Anubhav Godre",
-    company: "Vedaa Infratech",
+    company: "Vedaa Infratech Private Limited",
     designation: "Director",
     phone: "+91 8087115180",
     email: "Contact@vedaainfratech.com",
